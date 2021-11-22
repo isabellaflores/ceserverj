@@ -11,15 +11,23 @@ virtual machine. This can be useful in cases where you don't want to run Cheat E
 # Caveats
 * Just like Cheat Engine itself, it uses ReadProcessMemory and WriteProcessMemory, which may be detected by target processes.
 
-# Installation - Building from Source
+# Installation Option #1 - Downloading the Binary
+It is *recommended* that you build ceserverj yourself from its source code:
+
+1. Download and install [Temurin 11](https://adoptium.net/?variant=openjdk11) (Any other Java 11+ is fine too)
+2. Download [the latest ceserverj.jar](https://github.com/isabellaflores/ceserverj/releases) from Github to your Desktop
+3. Continue with "Running the Server" section below
+
+# Installation Option #2 - Building from Source
 It is *recommended* that you build ceserverj yourself from its source code:
 
 1. Download and install [Temurin 11](https://adoptium.net/?variant=openjdk11) (Any other Java 11+ is fine too)
 2. Download and install [Apache Maven](https://www.youtube.com/watch?v=--Iv5vBIHjI)
-3. Download [the source code](https://github.com/isabellaflores/ceserverj/archive/refs/heads/main.zip) from Github
+3. Download [the latest source code](https://github.com/isabellaflores/ceserverj/releases) from Github
 4. Unzip the source code to any desired location
 5. Build it using Maven by typing "mvn package" in the source code directory
 6. Copy the ceserverj.jar file from the 'target' directory to your Desktop
+7. Continue with "Running the Server" section below
 
 # Running the Server
 1. Open a command prompt (Win+R then type "cmd")

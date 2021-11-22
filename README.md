@@ -16,17 +16,23 @@ It is *recommended* that you build ceserverj yourself from its source code:
 
 1. Download and install [Temurin 11](https://adoptium.net/?variant=openjdk11) (Any other Java 11+ is fine too)
 2. Download and install [Apache Maven](https://www.youtube.com/watch?v=--Iv5vBIHjI)
-3. Download [the source code](https://github.com/isabellaflores/ceserverj/archive/refs/heads/master.zip) from Github
+3. Download [the source code](https://github.com/isabellaflores/ceserverj/archive/refs/heads/main.zip) from Github
 4. Unzip the source code to any desired location
 5. Build it using Maven by typing "mvn package" in the source code directory
 6. Copy the ceserverj.jar file from the 'target' directory to your Desktop
-7. Optionally rename the JAR file (Don't change the .jar extension)
 
 # Running the Server
 1. Open a command prompt (Win+R then type "cmd")
 2. Type "cd Desktop"
-3. Type "java -jar JARFILE", where JARFILE is the name of your JAR file.
-4. The server will now be listening on port 52736.
+3. Type "java -jar ceserver.jar"
+4. The server will now be listening on the default port, 52736.
+
+# Connecting to the server
+1. Open Cheat Engine
+2. File -> Open Process
+3. Click 'Network'
+4. Type the hostname or ip address of the server
+5. Click 'Connect' and select a process to open
 
 # Contributing to ceserverj
 Thank you for your interest in contributing to ceserverj!

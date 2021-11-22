@@ -17,6 +17,13 @@
     <groupId>iflores</groupId>
     <artifactId>ceserverj</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <scm>
+        <url>https://github.com/isabellaflores/ceserverj</url>
+        <connection>scm:git:git://github.com/isabellaflores/ceserverj.git</connection>
+        <developerConnection>scm:git:git@github.com:isabellaflores/ceserverj.git</developerConnection>
+    </scm>
+
     <build>
         <finalName>do_not_use</finalName>
         <plugins>

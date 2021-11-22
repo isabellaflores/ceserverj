@@ -15,8 +15,9 @@ virtual machine. This can be useful in cases where you don't want to run Cheat E
 It is *recommended* that you build ceserverj yourself from its source code:
 
 1. Download and install [Temurin 11](https://adoptium.net/?variant=openjdk11) (Any other Java 11+ is fine too)
-2. Download [the latest ceserverj.jar](https://github.com/isabellaflores/ceserverj/releases) from Github to your Desktop
-3. Continue with "Running the Server" section below
+2. Download [the latest ceserverj.jar](https://github.com/isabellaflores/ceserverj/releases) from Github
+3. Copy the downloaded ceserverj.jar file to your Desktop
+4. Continue with "Running the Server" section below
 
 # Installation Option #2 - Building from Source
 It is *recommended* that you build ceserverj yourself from its source code:
@@ -32,7 +33,7 @@ It is *recommended* that you build ceserverj yourself from its source code:
 # Running the Server
 1. Open a command prompt (Win+R then type "cmd")
 2. Type "cd Desktop"
-3. Type "java -jar ceserver.jar"
+3. Type "java -jar ceserverj.jar"
 4. The server will now be listening on the default port, 52736.
 
 # Connecting to the server
